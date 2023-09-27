@@ -13,7 +13,7 @@ function Footer() {
               className="md:mr-8 object-cover h-10 w-40 "
             />
           </div>
-          <div className="grid md:grid-cols-3 gap-4 pt-4 text-sm justify-between">
+          <div className="grid md:grid-cols-3 gap-4 pt-4 justify-between">
             <div className="support">
               <h1 className="font-bold pb-2">Find Support</h1>
               <ul>

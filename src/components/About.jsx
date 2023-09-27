@@ -6,12 +6,12 @@ function About() {
   return (
     <div className="bg-white md:py-16 py-8">
       <div className="w-10/12 m-auto md:flex item-center justify-between">
-        <div className=" md:pt-10 w-[50%] pb-4 ">
+        <div className=" md:pt-10 md:w-[50%] pb-4 md:pr-4 ">
           <img src={Car} alt="" />
         </div>
 
-        <div className="border-[1px] md:w-[50%] lg:py-8 border-sky-500 bg-[#f9f6f6]">
-          <div className="w-[85%] m-auto py-4">
+        <div className="border-[1px] md:w-[50%] lg:py-8 border-sky-500 bg-[#f9f6f6] rounded-lg">
+          <div className="w-[85%] m-auto py-8">
             <div>
               <h1 className="flex items-center pb-4 font-bold text-xl text-[#5941BB]">
                 Why

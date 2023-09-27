@@ -10,38 +10,38 @@ import Porsche from "../assets/feature/porsche.png";
 
 function Features() {
   return (
-    <div className="bg-white py-8">
+    <div className="bg-gray-100 py-8">
       <div className="w-10/12 m-auto">
         <div className="pb-8">
           <h1 className="font-bold text-xl text-[#5941BB] text-center">
             Featured Market:
           </h1>
         </div>
-        <div className="border-[1px] border-sky-500 bg-[#f9f6f6]">
-          <div className="grid md:grid-cols-4 grid-cols-2 items-center justify-between">
-            <div className="border w-[80px] h-[80px] bg-white m-8">
-              <img src={Suzuki} alt="suziki" className="" />
+        <div className="border-[1px] border-sky-500 bg-[#f9f6f6] rounded-lg py-16">
+          <div className="grid md:grid-cols-4 grid-cols-2 gap-4 md:gap-8 justify-center">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={Suzuki} alt="suzuki" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white m-8">
-              <img src={Tesla} alt="tesla" className="" />
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={Tesla} alt="tesla" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white m-8">
-              <img src={Toyota} alt="toyota" className="" />
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={Toyota} alt="toyota" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white m-8">
-              <img src={Audi} alt="audi" className="" />
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={Audi} alt="audi" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white m-8">
-              <img src={BMW} alt="bmw" className="w-[80px]" />
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={BMW} alt="bmw" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white m-8">
-              <img src={KIA} alt="kia" className="h-[80px]" />
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={KIA} alt="kia" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] bg-white m-8">
-              <img src={Benz} alt="benz" className="h-[80px]" />
+            <div className="border w-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={Benz} alt="benz" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] bg-white m-8">
-              <img src={Porsche} alt="porsche" className="h-[80px] " />
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+              <img src={Porsche} alt="porsche" className="w-full h-full" />
             </div>
           </div>
         </div>
