@@ -15,7 +15,7 @@ function Navigation() {
     setOpen((prev) => !prev);
   };
   return (
-    <div className="h-16 bg-white relative md:py- py-4">
+    <div className="h-16 bg-white relative md:py-4 py-2">
       <div className="w-10/12 m-auto">
         {/**Desktop view */}
         <div className="hidden md:block">
@@ -53,24 +53,24 @@ function Navigation() {
           )}
         </div>
         <div className="md:hidden">
-          <div className="font-bold text-2xl">
+          <div className="font-bold text-2xl text-[#5941BB] mb-4">
             <img src={logo} alt="Carsera" className="object-cover h-10 w-40" />
           </div>
           {open && (
-            <div className="md:hidden bg-[#806CCE] py-4">
+            <div className="md:hidden bg-[#5941BB] py-4">
               <ul className="flex flex-col gap-3 font-bold">
                 {/**Remember to add link function to listed items */}
-                <li className="text-xl text-white p-2 w-[90%] m-auto rounded cursor-pointer bg-[#9d8ae9] my-2 hover:bg-[#9d8aff]">
+                <li className="text-xl text-white p-2 rounded cursor-pointer bg-[#806CCE] hover:bg-[#9d8ae9] transition duration-300">
                   News
                 </li>
-                <li className="flex items-center text-xl text-white p-2 w-[90%] m-auto rounded cursor-pointer bg-[#9d8ae9] my-2 hover:bg-[#9d8aff] gap-[1px]">
+                <li className="flex items-center text-xl text-white p-2 rounded cursor-pointer bg-[#806CCE] hover:bg-[#9d8ae9] transition duration-300">
                   Find a car
                   <MdOutlineArrowDropDownCircle />
                 </li>
-                <li className="text-xl text-white p-2 w-[90%] m-auto rounded cursor-pointer bg-[#9d8ae9] my-2 hover:bg-[#9d8aff]">
+                <li className="text-xl text-white p-2 rounded cursor-pointer bg-[#806CCE] hover:bg-[#9d8ae9] transition duration-300">
                   About Us
                 </li>
-                <li className="text-xl text-white p-2 w-[90%] m-auto rounded cursor-pointer bg-[#9d8ae9] my-2 hover:bg-[#9d8aff]">
+                <li className="text-xl text-white p-2 rounded cursor-pointer bg-[#806CCE] hover:bg-[#9d8ae9] transition duration-300">
                   Contact
                 </li>
               </ul>
