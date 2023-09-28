@@ -15,7 +15,7 @@ function Navigation() {
     setOpen((prev) => !prev);
   };
   return (
-    <div className="h-16 bg-white relative md:py-4 py-2">
+    <div className="h-16 bg-white text-[#5941BB] font-bold relative md:py-4 py-2">
       <div className="w-10/12 m-auto">
         {/**Desktop view */}
         <div className="hidden md:block">
