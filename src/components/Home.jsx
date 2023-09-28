@@ -28,7 +28,7 @@ function Home() {
               </button>
             </div>
           </form>
-          <div className="border p-4 rounded-lg">
+          <div className="border p-4 rounded-lg bg-gray-50">
             <h1 className="pb-2 font-bold">Recent Searches:</h1>
             <ul className="md:flex md:gap-4">
               {/**Make them clickable */}

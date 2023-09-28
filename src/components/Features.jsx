@@ -19,28 +19,28 @@ function Features() {
         </div>
         <div className="border-[1px] border-sky-500 bg-[#f9f6f6] rounded-lg py-16">
           <div className="grid md:grid-cols-4 grid-cols-2 gap-4 md:gap-8 justify-center">
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={Suzuki} alt="suzuki" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={Tesla} alt="tesla" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={Toyota} alt="toyota" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={Audi} alt="audi" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={BMW} alt="bmw" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={KIA} alt="kia" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={Benz} alt="benz" className="w-full h-full" />
             </div>
-            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto">
+            <div className="border w-[80px] h-[80px] bg-white flex items-center justify-center m-auto rounded">
               <img src={Porsche} alt="porsche" className="w-full h-full" />
             </div>
           </div>
