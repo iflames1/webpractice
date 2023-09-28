@@ -17,14 +17,14 @@ function Home() {
             className="w-40 h-10 object-cover m-auto"
           />
           <form className="py-8">
-            <div className="flex border border-[#806CCE]">
+            <div className="flex border border-[#806CCE] rounded-lg">
               <input
                 type="search"
-                className="w-full p-4 text-sm bg-gray-50 outline-none"
+                className="w-full p-4 text-sm bg-gray-50 outline-none rounded-l-lg"
                 placeholder="Find your dream car here..."
               />
-              <button className="bg-[#806CCE]">
-                <FiSearch color="white" size={25} className="" />
+              <button className="bg-[#806CCE] rounded-r-lg px-4 py-2 text-white hover:bg-[#5941BB] transition duration-300">
+                <FiSearch size={25} className="" />
               </button>
             </div>
           </form>
