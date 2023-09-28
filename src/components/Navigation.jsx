@@ -19,7 +19,7 @@ function Navigation() {
       <div className="w-10/12 m-auto">
         {/**Desktop view */}
         <div className="hidden md:block">
-          <ul className="flex items-center gap-8 text-lg justify-between">
+          <ul className="flex items-center gap-8 lg:text-2xl text-xl justify-between">
             {/**Remember to add link function to listed items */}
             <li>News</li>
             <li className="flex items-center gap-2">
